@@ -1,0 +1,221 @@
+# Query: <script[^>]*>(.*?)</script[^>]*>
+# Flags: RegExp
+# ContextLines: 1
+
+132 results - 4 files
+
+1.php:
+  13  
+  14: <script src="https://cdn.justcall.io/main/assets/js/bootstrap.min.js"></script>
+  15: <script src="https://cdn.justcall.io/main/assets/js/jquery-3.3.1.min.js"></script>
+  16: <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+
+\Untitled-1:
+  1: <script src="https://cdn.justcall.io/main/assets/js/bootstrap.min.js"></script>
+  2: <script src="https://cdn.justcall.io/main/assets/js/jquery-3.3.1.min.js"></script>
+  3: <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+
+\Untitled-2:
+    1: # Query: <script[^>]*>(.*?)</script[^>]*>
+    2  # Flags: RegExp
+
+    8     386    <link href="https://cdn.justcall.io/css/select-2.css" rel="stylesheet" />
+    9:    387:   <script src="https://cdn.justcall.io/app/assets/js/jquery-3.5.1.js"></script>
+   10     388    <link rel="stylesheet" type="text/css" href="https://cdn.justcall.io/app/assets/lib/jquery.gritter/css/jquery.gritter.css"/>
+
+   12     397  
+   13:    398:   <!-- <script src="https://cdn.justcall.io/app/assets/lib/jquery-ui/jquery-ui.min.js" type="text/javascript"></script> -->
+   14:    399:   <script src="https://justcall.io/app/sms_assets/jquery-ui_1.13.min.js" type="text/javascript"></script>
+   15     400    
+   16:    401:   <script src="https://cdn.justcall.io/app/assets/js/firebase-app.js"></script>
+   17     402  
+   18:    403:   <script src="https://cdn.justcall.io/app/assets/js/firebase-auth.js"></script>
+   19     404  
+   20:    405:   <script src="https://cdn.justcall.io/app/assets/js/firebase-database.js"></script>
+   21     406  
+
+   23     411  
+   24:    412:   <!-- <script src="https://cdn.justcall.io/app/assets/js/filestack.min.js"></script> -->
+   25:    413:   <!-- <script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script> -->
+   26:    414:   <script src="https://justcall.io/app/sms_assets/filestack.min_3.x.x.js"></script>
+   27     415    
+   28:    416:   <script src="https://cdn.justcall.io/app/assets/js/clipboard.min.js"></script>
+   29     417  
+
+   31     419  
+   32:    420:   <script type="text/javascript" src="https://cdn.justcall.io/app/sms_assets/dc_popup_notifications.js"></script>
+   33     421  
+   34     422  
+   35:    423:   <script type="module" src="https://cdn.justcall.io/app/assets/lib/emoji_lib_live/index.js "></script>
+   36     424  
+
+   38    2784  
+   39:   2785:        <script src="https://cdn.justcall.io/app/sms_assets/dragable_segment.js"></script>
+   40    2786         <link rel="stylesheet" href="https://cdn.justcall.io/app/sms_assets/css/dragable-segment-length-counter.css" />
+
+   42    2962  
+   43:   2963:        <script src="https://cdn.justcall.io/app/assets/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+   44:   2964:        <script src="https://cdn.justcall.io/app/assets/js/main.js" type="text/javascript"></script>
+   45:   2965:        <!-- <script src="https://cdn.justcall.io/app/assets/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script> -->
+   46:   2966:        <script src="https://cdn.justcall.io/app/assets/js/bootstrap_3.4.1.min.js" type="text/javascript"></script>
+   47:   2967:        <script src="https://cdn.justcall.io/app/assets/lib/jquery.magnific-popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
+   48    2968         
+   49:   2969:        <!-- <script src="https://cdn.justcall.io/app/sms_assets/select2.min.js" charset="UTF-8"></script> -->
+   50:   2970:        <script src="https://cdn.justcall.io/app/assets/js/select2_4.0.13.min.js" charset="UTF-8"></script>
+   51    2971         
+   52:   2972:        <script src="https://cdn.justcall.io/app/assets/lib/jquery.gritter/js/jquery.gritter.js" type="text/javascript"></script>
+   53    2973  
+   54:   2974:        <script src="https://cdn.justcall.io/js/izi-toast.js" type="text/javascript"></script>
+   55    2975  
+   56:   2976:        <script src="https://cdn.justcall.io/js/tippy.all.min.js"></script>
+   57    2977  
+   58:   2978:        <script src = "https://cdn.justcall.io/app/assets/js/smscount.min.js"></script>
+   59    2979  
+   60:   2980:        <script src="https://cdn.justcall.io/app/assets/js/moment_2_29_1.min.js"></script>
+   61    2981  
+   62:   2982:        <script src="https://cdn.justcall.io/app/assets/cookie/jquery.cookie.min.js"></script>
+   63    2983  
+   64    2984  
+   65:   2985:        <script src="https://cdn.justcall.io/app/assets/lib/daterangepicker/js/daterangepicker.js" type="text/javascript"></script>
+   66    2986  
+
+   68    3923  
+   69:   3924:   <script src="<?php echo $beepringtone_url; ?>?v=2"></script>
+   70    3925  
+   71:   3926:   <script src="<?php echo $baseurl; ?>app/sms_assets/messages_06_january_2022.js?v=1"></script>
+   72:   3927:   <script></script>
+   73:   3928:   <script src="<?php echo $baseurl; ?>app/sms_assets/saved_reply/saved_reply_module.js?v=11"></script>
+   74    3929    <script>
+
+   77     388    <link href="https://cdn.justcall.io/css/select-2.css" rel="stylesheet" />
+   78:    389:   <script src="https://cdn.justcall.io/app/assets/js/jquery-3.5.1.js"></script>
+   79     390    <link rel="stylesheet" type="text/css" href="https://cdn.justcall.io/app/assets/lib/jquery.gritter/css/jquery.gritter.css"/>
+
+   81     399  
+   82:    400:   <!-- <script src="https://cdn.justcall.io/app/assets/lib/jquery-ui/jquery-ui.min.js" type="text/javascript"></script> -->
+   83:    401:   <script src="https://justcall.io/app/sms_assets/jquery-ui_1.13.min.js" type="text/javascript"></script>
+   84     402    
+   85:    403:   <script src="https://cdn.justcall.io/app/assets/js/firebase-app.js"></script>
+   86     404  
+   87:    405:   <script src="https://cdn.justcall.io/app/assets/js/firebase-auth.js"></script>
+   88     406  
+   89:    407:   <script src="https://cdn.justcall.io/app/assets/js/firebase-database.js"></script>
+   90     408  
+
+   92     413  
+   93:    414:   <!-- <script src="https://cdn.justcall.io/app/assets/js/filestack.min.js"></script> -->
+   94:    415:   <!-- <script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script> -->
+   95:    416:   <script src="https://justcall.io/app/sms_assets/filestack.min_3.x.x.js"></script>
+   96     417    
+   97:    418:   <script src="https://cdn.justcall.io/app/assets/js/clipboard.min.js"></script>
+   98     419  
+
+  100     421  
+  101:    422:   <script type="text/javascript" src="https://cdn.justcall.io/app/sms_assets/dc_popup_notifications.js"></script>
+  102     423  
+  103     424  
+  104:    425:   <script type="module" src="https://cdn.justcall.io/app/assets/lib/emoji_lib_live/index.js "></script>
+  105     426  
+
+  107    2346  
+  108:   2347:        <script src="https://cdn.justcall.io/app/sms_assets/dragable_segment.js"></script>
+  109    2348         <link rel="stylesheet" href="https://cdn.justcall.io/app/sms_assets/css/dragable-segment-length-counter.css" />
+
+  111    2524  
+  112:   2525:        <script src="https://cdn.justcall.io/app/assets/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+  113:   2526:        <script src="https://cdn.justcall.io/app/assets/js/main.js" type="text/javascript"></script>
+  114:   2527:        <!-- <script src="https://cdn.justcall.io/app/assets/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script> -->
+  115:   2528:        <script src="https://cdn.justcall.io/app/assets/js/bootstrap_3.4.1.min.js" type="text/javascript"></script>
+  116:   2529:        <script src="https://cdn.justcall.io/app/assets/lib/jquery.magnific-popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
+  117    2530         
+  118:   2531:        <!-- <script src="https://cdn.justcall.io/app/sms_assets/select2.min.js" charset="UTF-8"></script> -->
+  119:   2532:        <script src="https://cdn.justcall.io/app/assets/js/select2_4.0.13.min.js" charset="UTF-8"></script>
+  120    2533         
+  121:   2534:        <script src="https://cdn.justcall.io/app/assets/lib/jquery.gritter/js/jquery.gritter.js" type="text/javascript"></script>
+  122    2535  
+  123:   2536:        <script src="https://cdn.justcall.io/js/izi-toast.js" type="text/javascript"></script>
+  124    2537  
+  125:   2538:        <script src="https://cdn.justcall.io/js/tippy.all.min.js"></script>
+  126    2539  
+  127:   2540:        <script src = "https://cdn.justcall.io/app/assets/js/smscount.min.js"></script>
+  128    2541  
+  129:   2542:        <script src="https://cdn.justcall.io/app/assets/js/moment_2_29_1.min.js"></script>
+  130    2543  
+  131:   2544:        <script src="https://cdn.justcall.io/app/assets/cookie/jquery.cookie.min.js"></script>
+  132    2545  
+  133    2546  
+  134:   2547:        <script src="https://cdn.justcall.io/app/assets/lib/daterangepicker/js/daterangepicker.js" type="text/javascript"></script>
+  135    2548  
+
+  137    3444  
+  138:   3445:   <script src="<?php echo $beepringtone_url; ?>?v=2"></script>
+  139    3446  
+  140:   3447:   <script src="<?php echo $baseurl; ?>app/sms_assets/messages_05_november_2021.js?v=4"></script>
+  141:   3448:   <script></script>
+  142:   3449:   <script src="<?php echo $baseurl; ?>app/sms_assets/saved_reply/saved_reply_module.js?v=11"></script>
+  143    3450    <script>
+
+\Untitled-3:
+   1: <script[^>]*>(.*?)</script[^>
+   2: <script src="https://cdn.justcall.io/app/assets/js/jquery-3.5.1.js"></script>
+   3: <script src="https://cdn.justcall.io/app/assets/lib/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+   4: <script src="https://justcall.io/app/sms_assets/jquery-ui_1.13.min.js" type="text/javascript"></script>
+   5: <script src="https://cdn.justcall.io/app/assets/js/firebase-app.js"></script>
+   6: <script src="https://cdn.justcall.io/app/assets/js/firebase-auth.js"></script>
+   7: <script src="https://cdn.justcall.io/app/assets/js/firebase-database.js"></script>
+   8: <script src="https://cdn.justcall.io/app/assets/js/filestack.min.js"></script>
+   9: <script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
+  10: <script src="https://justcall.io/app/sms_assets/filestack.min_3.x.x.js"></script>
+  11: <script src="https://cdn.justcall.io/app/assets/js/clipboard.min.js"></script>
+  12: <script type="text/javascript" src="https://cdn.justcall.io/app/sms_assets/dc_popup_notifications.js"></script>
+  13: <script type="module" src="https://cdn.justcall.io/app/assets/lib/emoji_lib_live/index.js "></script>
+  14: <script src="https://cdn.justcall.io/app/sms_assets/dragable_segment.js"></script>
+  15: <script src="https://cdn.justcall.io/app/assets/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+  16: <script src="https://cdn.justcall.io/app/assets/js/main.js" type="text/javascript"></script>
+  17: <script src="https://cdn.justcall.io/app/assets/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+  18: <script src="https://cdn.justcall.io/app/assets/js/bootstrap_3.4.1.min.js" type="text/javascript"></script>
+  19: <script src="https://cdn.justcall.io/app/assets/lib/jquery.magnific-popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
+  20: <script src="https://cdn.justcall.io/app/sms_assets/select2.min.js" charset="UTF-8"></script>
+  21: <script src="https://cdn.justcall.io/app/assets/js/select2_4.0.13.min.js" charset="UTF-8"></script>
+  22: <script src="https://cdn.justcall.io/app/assets/lib/jquery.gritter/js/jquery.gritter.js" type="text/javascript"></script>
+  23: <script src="https://cdn.justcall.io/js/izi-toast.js" type="text/javascript"></script>
+  24: <script src="https://cdn.justcall.io/js/tippy.all.min.js"></script>
+  25: <script src = "https://cdn.justcall.io/app/assets/js/smscount.min.js"></script>
+  26: <script src="https://cdn.justcall.io/app/assets/js/moment_2_29_1.min.js"></script>
+  27: <script src="https://cdn.justcall.io/app/assets/cookie/jquery.cookie.min.js"></script>
+  28: <script src="https://cdn.justcall.io/app/assets/lib/daterangepicker/js/daterangepicker.js" type="text/javascript"></script>
+  29: <script src="<?php echo $beepringtone_url; ?>?v=2"></script>
+  30: <script src="<?php echo $baseurl; ?>app/sms_assets/messages_06_january_2022.js?v=1"></script>
+  31: <script></script>
+  32: <script src="<?php echo $baseurl; ?>app/sms_assets/saved_reply/saved_reply_module.js?v=11"></script>
+  33: <script src="https://cdn.justcall.io/app/assets/js/jquery-3.5.1.js"></script>
+  34: <script src="https://cdn.justcall.io/app/assets/lib/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+  35: <script src="https://justcall.io/app/sms_assets/jquery-ui_1.13.min.js" type="text/javascript"></script>
+  36: <script src="https://cdn.justcall.io/app/assets/js/firebase-app.js"></script>
+  37: <script src="https://cdn.justcall.io/app/assets/js/firebase-auth.js"></script>
+  38: <script src="https://cdn.justcall.io/app/assets/js/firebase-database.js"></script>
+  39: <script src="https://cdn.justcall.io/app/assets/js/filestack.min.js"></script>
+  40: <script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
+  41: <script src="https://justcall.io/app/sms_assets/filestack.min_3.x.x.js"></script>
+  42: <script src="https://cdn.justcall.io/app/assets/js/clipboard.min.js"></script>
+  43: <script type="text/javascript" src="https://cdn.justcall.io/app/sms_assets/dc_popup_notifications.js"></script>
+  44: <script type="module" src="https://cdn.justcall.io/app/assets/lib/emoji_lib_live/index.js "></script>
+  45: <script src="https://cdn.justcall.io/app/sms_assets/dragable_segment.js"></script>
+  46: <script src="https://cdn.justcall.io/app/assets/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+  47: <script src="https://cdn.justcall.io/app/assets/js/main.js" type="text/javascript"></script>
+  48: <script src="https://cdn.justcall.io/app/assets/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+  49: <script src="https://cdn.justcall.io/app/assets/js/bootstrap_3.4.1.min.js" type="text/javascript"></script>
+  50: <script src="https://cdn.justcall.io/app/assets/lib/jquery.magnific-popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
+  51: <script src="https://cdn.justcall.io/app/sms_assets/select2.min.js" charset="UTF-8"></script>
+  52: <script src="https://cdn.justcall.io/app/assets/js/select2_4.0.13.min.js" charset="UTF-8"></script>
+  53: <script src="https://cdn.justcall.io/app/assets/lib/jquery.gritter/js/jquery.gritter.js" type="text/javascript"></script>
+  54: <script src="https://cdn.justcall.io/js/izi-toast.js" type="text/javascript"></script>
+  55: <script src="https://cdn.justcall.io/js/tippy.all.min.js"></script>
+  56: <script src = "https://cdn.justcall.io/app/assets/js/smscount.min.js"></script>
+  57: <script src="https://cdn.justcall.io/app/assets/js/moment_2_29_1.min.js"></script>
+  58: <script src="https://cdn.justcall.io/app/assets/cookie/jquery.cookie.min.js"></script>
+  59: <script src="https://cdn.justcall.io/app/assets/lib/daterangepicker/js/daterangepicker.js" type="text/javascript"></script>
+  60: <script src="<?php echo $beepringtone_url; ?>?v=2"></script>
+  61: <script src="<?php echo $baseurl; ?>app/sms_assets/messages_05_november_2021.js?v=4"></script>
+  62: <script></script>
+  63: <script src="<?php echo $baseurl; ?>app/sms_assets/saved_reply/saved_reply_module.js?v=11"></script>
